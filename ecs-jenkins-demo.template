@@ -404,7 +404,7 @@
 
       "Properties": {
         "KeyName": {
-          "Fn::ImportValue": {"Fn::Sub": "${EcsStackName}-KeyName"}
+          "Fn::ImportValue": {"Fn::Sub": "Kai-bjs.pem"}
         },
         "ImageId": {
           "Fn::FindInMap": ["AWSRegionArch2AMI", {
